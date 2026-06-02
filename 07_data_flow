@@ -1,0 +1,81 @@
+# Data Flow
+
+## Overview
+
+The system operates on a weekly training cycle (likely to be improved by updating after each session, gym workout blocks dont neccessarily work on 
+                                                weekly blocks)
+
+Data flows through the following stages:
+
+Program Definition
+→ Workout Execution
+→ Workout Logging
+→ Progression Evaluation
+→ Program Update
+
+---
+
+## Stage 1: Program Definition
+
+Inputs:
+- Exercise list
+- Sets
+- Rep ranges
+- Starting weights
+
+Output:
+- Program
+
+---
+
+## Stage 2: Workout Execution
+
+Input:
+- Program
+
+Output:
+- WorkoutSession
+
+Captured:
+- Reps achieved
+- Weight used
+- RPE
+
+---
+
+## Stage 3: Workout Logging
+
+Input:
+- WorkoutSession
+
+Output:
+- saved workout history
+
+Storage:
+- JSON
+
+---
+
+## Stage 4: Progression Evaluation
+
+Inputs:
+- Current Program
+- Workout History
+
+Output:
+- ProgressionDecision
+
+Rules:
+- Rep range completion
+- RPE adjustment
+
+---
+
+## Stage 5: Program Update
+
+Inputs:
+- Current Program
+- ProgressionDecision
+
+Output:
+- Next Program
