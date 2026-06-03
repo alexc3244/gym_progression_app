@@ -1,0 +1,103 @@
+# Code Architecture
+
+## Overview
+
+The system is structured as a modular Python application with clear separation between:
+
+- Data models
+- logic (progression engine)
+- Application services
+- Persistence layer
+
+---
+
+## Architectural Principles
+
+- Separation of concerns
+- Stateless business logic
+- Explicit data models
+- saved File-based (MVP)
+- Testable progression engine
+
+---
+
+## Module Breakdown
+
+### models/
+
+Defines core domain objects.
+
+- Exercise
+- ExercisePrescription
+- Program
+- WorkoutSession
+- SetResult
+
+These are pure data structures (dataclasses).
+
+---
+
+### engine/
+
+Contains progression logic.
+
+#### progression.py
+Implements deterministic progression rules.
+
+#### autoregulation.py
+Implements RPE/RIR-based adjustments.
+
+#### updater.py
+Combines outputs into next program.
+
+---
+
+### services/
+
+Orchestrates workflows.
+
+#### program_service.py
+- Creates programs
+- Calls progression engine
+
+#### session_service.py
+- Handles workout logging
+- Validates session structure
+
+---
+
+### storage/
+
+Handles persistence layer.
+
+#### file_storage.py
+- Save/load JSON files
+
+#### repository.py
+- Abstraction over storage
+
+---
+
+### utils/
+
+Helper functions such as:
+- volume calculations
+- load progression math
+
+---
+
+### main.py
+
+Entry point for:
+- running program generation
+- simulating workout cycle
+- testing engine manually
+
+---
+
+## Design Philosophy
+
+- Models contain no logic
+- Engine contains all decision-making
+- Services coordinate flow
+- Storage is replaceable
