@@ -1,0 +1,235 @@
+{
+  "name": "PPL Hypertrophy Block 1",
+  "workout_days": [
+    {
+      "name": "Push A",
+      "prescriptions": [
+        {
+          "exercise": { "name": "Smith Machine Bench Press", "exercise_type": "compound" },
+          "sets": 3, "rep_min": 6, "rep_max": 8, "load_kg": 20.0, "rir_target": 3
+        },
+        {
+          "exercise": { "name": "Incline Dumbbell Press", "exercise_type": "compound" },
+          "sets": 3, "rep_min": 10, "rep_max": 12, "load_kg": 10.0, "rir_target": 2
+        },
+        {
+          "exercise": { "name": "Cable Lateral Raise", "exercise_type": "isolation" },
+          "sets": 3, "rep_min": 12, "rep_max": 15, "load_kg": 10.0, "rir_target": 2
+        },
+        {
+          "exercise": { "name": "Seated Dumbbell OHP", "exercise_type": "compound" },
+          "sets": 3, "rep_min": 10, "rep_max": 12, "load_kg": 10.0, "rir_target": 2
+        },
+        {
+          "exercise": { "name": "Cable Fly (low-to-high)", "exercise_type": "isolation" },
+          "sets": 3, "rep_min": 12, "rep_max": 15, "load_kg": 6.0, "rir_target": 1
+        },
+        {
+          "exercise": { "name": "Overhead Cable Tricep Ext.", "exercise_type": "isolation" },
+          "sets": 3, "rep_min": 12, "rep_max": 15, "load_kg": 14.0, "rir_target": 1
+        },
+        {
+          "exercise": { "name": "Rope Pushdown", "exercise_type": "isolation" },
+          "sets": 3, "rep_min": 15, "rep_max": 20, "load_kg": 14.0, "rir_target": 1
+        },
+        {
+          "exercise": { "name": "Cable Crunch", "exercise_type": "isolation" },
+          "sets": 3, "rep_min": 12, "rep_max": 15, "load_kg": 15.0, "rir_target": 1
+        },
+        {
+          "exercise": { "name": "Ab Wheel Rollout", "exercise_type": "compound" },
+          "sets": 3, "rep_min": 8, "rep_max": 12, "load_kg": 1.0, "rir_target": 2
+        },
+        {
+          "exercise": { "name": "Pallof Press", "exercise_type": "isolation" },
+          "sets": 3, "rep_min": 10, "rep_max": 12, "load_kg": 6.0, "rir_target": 1
+        }
+      ]
+    },
+    {
+      "name": "Push B",
+      "prescriptions": [
+        {
+          "exercise": { "name": "Seated Smith Machine OHP", "exercise_type": "compound" },
+          "sets": 3, "rep_min": 6, "rep_max": 8, "load_kg": 20.0, "rir_target": 3
+        },
+        {
+          "exercise": { "name": "Incline Dumbbell Press", "exercise_type": "compound" },
+          "sets": 3, "rep_min": 10, "rep_max": 12, "load_kg": 14.0, "rir_target": 2
+        },
+        {
+          "exercise": { "name": "Dumbbell Lateral Raise", "exercise_type": "isolation" },
+          "sets": 3, "rep_min": 15, "rep_max": 20, "load_kg": 8.0, "rir_target": 1
+        },
+        {
+          "exercise": { "name": "Machine Chest Fly", "exercise_type": "isolation" },
+          "sets": 3, "rep_min": 12, "rep_max": 15, "load_kg": 30.0, "rir_target": 1
+        },
+        {
+          "exercise": { "name": "Dips", "exercise_type": "compound" },
+          "sets": 3, "rep_min": 8, "rep_max": 12, "load_kg": 10.0, "rir_target": 2
+        },
+        {
+          "exercise": { "name": "EZ Bar Skull Crusher", "exercise_type": "isolation" },
+          "sets": 3, "rep_min": 10, "rep_max": 12, "load_kg": 10.0, "rir_target": 2
+        },
+        {
+          "exercise": { "name": "Hanging Leg Raise", "exercise_type": "isolation" },
+          "sets": 3, "rep_min": 10, "rep_max": 15, "load_kg": 1.0, "rir_target": 1
+        }
+      ]
+    },
+    {
+      "name": "Pull A",
+      "prescriptions": [
+        {
+          "exercise": { "name": "Cable Woodchop", "exercise_type": "compound" },
+          "sets": 3, "rep_min": 12, "rep_max": 15, "load_kg": 8.0, "rir_target": 1
+        },
+        {
+          "exercise": { "name": "Plank", "exercise_type": "isolation" },
+          "sets": 3, "rep_min": 30, "rep_max": 45, "load_kg": 1.0, "rir_target": 0
+        },
+        {
+          "exercise": { "name": "Pull-Up / Weighted Pull-Up", "exercise_type": "compound" },
+          "sets": 3, "rep_min": 6, "rep_max": 10, "load_kg": 20.0, "rir_target": 3
+        },
+        {
+          "exercise": { "name": "Cable Lat Pulldown", "exercise_type": "compound" },
+          "sets": 3, "rep_min": 10, "rep_max": 12, "load_kg": 30.0, "rir_target": 2
+        },
+        {
+          "exercise": { "name": "Seated Cable Row", "exercise_type": "compound" },
+          "sets": 3, "rep_min": 10, "rep_max": 12, "load_kg": 30.0, "rir_target": 2
+        },
+        {
+          "exercise": { "name": "Single Arm Dumbbell Row", "exercise_type": "compound" },
+          "sets": 3, "rep_min": 10, "rep_max": 12, "load_kg": 12.0, "rir_target": 2
+        },
+        {
+          "exercise": { "name": "Face Pull (cable rope)", "exercise_type": "isolation" },
+          "sets": 3, "rep_min": 15, "rep_max": 20, "load_kg": 14.0, "rir_target": 1
+        },
+        {
+          "exercise": { "name": "Dumbbell Curl", "exercise_type": "isolation" },
+          "sets": 3, "rep_min": 10, "rep_max": 12, "load_kg": 10.0, "rir_target": 2
+        },
+        {
+          "exercise": { "name": "Hammer Curl", "exercise_type": "isolation" },
+          "sets": 3, "rep_min": 12, "rep_max": 15, "load_kg": 10.0, "rir_target": 1
+        },
+        {
+          "exercise": { "name": "Cable Crunch", "exercise_type": "isolation" },
+          "sets": 3, "rep_min": 12, "rep_max": 15, "load_kg": 15.0, "rir_target": 1
+        },
+        {
+          "exercise": { "name": "Decline Sit-Up (weighted)", "exercise_type": "isolation" },
+          "sets": 3, "rep_min": 12, "rep_max": 15, "load_kg": 10.0, "rir_target": 1
+        },
+        {
+          "exercise": { "name": "Pallof Press", "exercise_type": "isolation" },
+          "sets": 3, "rep_min": 10, "rep_max": 12, "load_kg": 6.0, "rir_target": 1
+        }
+      ]
+    },
+    {
+      "name": "Pull B",
+      "prescriptions": [
+        {
+          "exercise": { "name": "Barbell Bent-Over Row", "exercise_type": "compound" },
+          "sets": 3, "rep_min": 8, "rep_max": 10, "load_kg": 20.0, "rir_target": 2
+        },
+        {
+          "exercise": { "name": "Chest Supported Row", "exercise_type": "compound" },
+          "sets": 3, "rep_min": 12, "rep_max": 15, "load_kg": 20.0, "rir_target": 2
+        },
+        {
+          "exercise": { "name": "Straight-Arm Pulldown", "exercise_type": "isolation" },
+          "sets": 3, "rep_min": 12, "rep_max": 15, "load_kg": 10.0, "rir_target": 1
+        },
+        {
+          "exercise": { "name": "Low Cable Row (narrow grip)", "exercise_type": "compound" },
+          "sets": 3, "rep_min": 10, "rep_max": 12, "load_kg": 20.0, "rir_target": 2
+        },
+        {
+          "exercise": { "name": "Incline Dumbbell Curl", "exercise_type": "isolation" },
+          "sets": 3, "rep_min": 10, "rep_max": 12, "load_kg": 10.0, "rir_target": 2
+        },
+        {
+          "exercise": { "name": "Cable Curl (single arm)", "exercise_type": "isolation" },
+          "sets": 3, "rep_min": 12, "rep_max": 15, "load_kg": 14.0, "rir_target": 1
+        }
+      ]
+    },
+    {
+      "name": "Legs A",
+      "prescriptions": [
+        {
+          "exercise": { "name": "Barbell Back Squat", "exercise_type": "compound" },
+          "sets": 3, "rep_min": 6, "rep_max": 8, "load_kg": 25.0, "rir_target": 3
+        },
+        {
+          "exercise": { "name": "Leg Press", "exercise_type": "compound" },
+          "sets": 3, "rep_min": 10, "rep_max": 12, "load_kg": 30.0, "rir_target": 2
+        },
+        {
+          "exercise": { "name": "Bulgarian Split Squat", "exercise_type": "compound" },
+          "sets": 3, "rep_min": 10, "rep_max": 12, "load_kg": 10.0, "rir_target": 2
+        },
+        {
+          "exercise": { "name": "Leg Extension", "exercise_type": "isolation" },
+          "sets": 3, "rep_min": 12, "rep_max": 15, "load_kg": 30.0, "rir_target": 1
+        },
+        {
+          "exercise": { "name": "Lying Leg Curl", "exercise_type": "isolation" },
+          "sets": 3, "rep_min": 10, "rep_max": 12, "load_kg": 25.0, "rir_target": 2
+        },
+        {
+          "exercise": { "name": "Standing Calf Raise", "exercise_type": "isolation" },
+          "sets": 3, "rep_min": 12, "rep_max": 15, "load_kg": 40.0, "rir_target": 1
+        },
+        {
+          "exercise": { "name": "Ab Wheel Rollout", "exercise_type": "compound" },
+          "sets": 3, "rep_min": 8, "rep_max": 12, "load_kg": 1.0, "rir_target": 2
+        },
+        {
+          "exercise": { "name": "Hanging Leg Raise", "exercise_type": "isolation" },
+          "sets": 3, "rep_min": 10, "rep_max": 15, "load_kg": 1.0, "rir_target": 1
+        },
+        {
+          "exercise": { "name": "Cable Woodchop", "exercise_type": "compound" },
+          "sets": 3, "rep_min": 12, "rep_max": 15, "load_kg": 8.0, "rir_target": 1
+        }
+      ]
+    },
+    {
+      "name": "Legs B",
+      "prescriptions": [
+        {
+          "exercise": { "name": "Romanian Deadlift (DB)", "exercise_type": "compound" },
+          "sets": 3, "rep_min": 8, "rep_max": 10, "load_kg": 1.0, "rir_target": 2
+        },
+        {
+          "exercise": { "name": "Hip Thrust (bar/machine)", "exercise_type": "compound" },
+          "sets": 3, "rep_min": 10, "rep_max": 12, "load_kg": 20.0, "rir_target": 2
+        },
+        {
+          "exercise": { "name": "Hack Squat (machine)", "exercise_type": "compound" },
+          "sets": 3, "rep_min": 10, "rep_max": 12, "load_kg": 20.0, "rir_target": 2
+        },
+        {
+          "exercise": { "name": "Seated Leg Curl", "exercise_type": "isolation" },
+          "sets": 3, "rep_min": 10, "rep_max": 12, "load_kg": 30.0, "rir_target": 2
+        },
+        {
+          "exercise": { "name": "Cable Kickback/Abduction", "exercise_type": "isolation" },
+          "sets": 3, "rep_min": 15, "rep_max": 20, "load_kg": 10.0, "rir_target": 1
+        },
+        {
+          "exercise": { "name": "Seated Calf Raise", "exercise_type": "isolation" },
+          "sets": 3, "rep_min": 15, "rep_max": 20, "load_kg": 40.0, "rir_target": 1
+        }
+      ]
+    }
+  ]
+}
